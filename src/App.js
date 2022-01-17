@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -11,11 +12,16 @@ function App() {
         </p>
         <a
           className="App-link"
-          href=""
+          href="/"
           rel="noopener noreferrer"
         >
           Med Bond
         </a>
+
+        <Link to="/physics">Physics</Link>
+        <Link to="/chemistry">Chemistry</Link>
+        <Link to="/biology">Biology</Link>
+        <Link to="/biologyy">404</Link>
       </header>
     </div>
   );

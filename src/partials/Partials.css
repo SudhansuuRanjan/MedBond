@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white;
+    transition: 0.3s ease-in;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.nav-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+}
+.navbar-img{
+    width: 12rem;
+}
+ul{
+    list-style-type:none;
+    display: flex;
+    column-gap: 10vw;
+}
+.nav-sub{
+ font-weight: 600;
+ color:rgb(0, 208, 138);
+ cursor: pointer;
+}
+
+input{
+    height:  2.2rem;
+    width: 14rem;
+    border: 2px solid black;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.display-block{
+    display: none;
+}
+
+
+@media screen and ( max-width:850px){
+    .nav-up-comp{
+        display:none;
+    }
+    .hamburger{
+    display: block;
+    }
+    .nav-bottom{
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;  
+    }
+    .display-block{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+     display: none;
+    }
+    
+    ul{
+        display: flex;
+        padding: 0;
+    }
+}
+
+@media screen  and ( max-width:600px){
+   input{
+        width: 70vw;
+        height: 2.5rem;
+        padding: 1rem;
+    } 
+     ul{
+        display: flex;
+        padding: 2rem 0;
+        max-width: 70vw;
+    }
+    .nav-bottom{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+    }
+    .display-block{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+        display: none;
+    }
+    input{
+        margin-top: 2rem;
+    }
+}

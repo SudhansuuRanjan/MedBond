@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.path{
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+.table-of-contents{
+    display: flex;
+    flex-direction: column;
+}
+.popup{
+    border: 1px solid black;
+    max-width: fit-content;
+}
+.subject-topic{
+   padding: 2rem;
+}
+.subject-topic-cont{
+    background-color: aquamarine;
+    text-align: center;
+    ma
+}

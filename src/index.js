@@ -2,16 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter , Routes , Route } from 'react-router-dom';
+import Physics from './routes/Physics'
+import Biology from './routes/Biology'
+import Chemistry from './routes/Chemistry'
+import NoPage from './routes/NoPage'
 
+const rootElement =  document.getElementById('root');
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <BrowserRouter>
+     <Routes>
+       <Route path="/" element={<App/>}/>
+       <Route path="/physics" element={<Physics/>}/>
+       <Route path="/chemistry" element={<Chemistry/>}/>
+       <Route path="/biology" element={<Biology/>}/>
+       <Route path="*" element={<NoPage/>}/>
+     </Routes>
+  </BrowserRouter>,
+  rootElement
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
