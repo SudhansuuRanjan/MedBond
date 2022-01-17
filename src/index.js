@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter , Routes , Route } from 'react-router-dom';
-import Physics from './routes/Physics'
+import Microbiology from './routes/Microbiology'
 import Biology from './routes/Biology'
 import Chemistry from './routes/Chemistry'
 import NoPage from './routes/NoPage'
@@ -13,7 +13,7 @@ ReactDOM.render(
   <BrowserRouter>
      <Routes>
        <Route path="/" element={<App/>}/>
-       <Route path="/physics" element={<Physics/>}/>
+       <Route path="/microbiology" element={<Microbiology/>}/>
        <Route path="/chemistry" element={<Chemistry/>}/>
        <Route path="/biology" element={<Biology/>}/>
        <Route path="*" element={<NoPage/>}/>

@@ -20,7 +20,8 @@
     padding: 0.2rem 0;
 }
 .popup{
-    max-width: fit-content;
+    max-width: fit-content ;
+    max-width:-moz-fit-content;
 }
 .subject-topic{
    padding: 1.5rem;
@@ -46,4 +47,9 @@
 .table-head{
     padding-left: 1rem;
     padding-bottom: 1rem;
+}
+.selected{
+   background-color: aquamarine; 
+   border-radius: 0.3rem;
+   padding-left: 0.3rem;
 }

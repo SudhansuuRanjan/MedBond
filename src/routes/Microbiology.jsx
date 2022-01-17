@@ -98,7 +98,18 @@ const Physics = () => {
 
  const [dataState , setDataState] = useState(0);
 
+  function Selected(){
+     for(var i = 0 ; i < 3 ; i++){
+         if(i == dataState){
+             document.querySelectorAll('.subject-li')[i].classList.add('selected')
+         }else{
+            document.querySelectorAll('.subject-li')[i].classList.remove('selected') 
+         }
+     }
+  }
+
  function listResources(){
+     Selected();
     return(
         <div>
         <div className="subject-topic-cont">
@@ -129,7 +140,9 @@ const Physics = () => {
                <h3 className='table-head'>Table of Contents</h3>
                <div className='popup'>
                    <ul className='table-of-contents'>
-                       <li className='subject-li' value={0} onClick={(e) => setDataState(e.target.value)}>General Microbiology</li>
+                       <li className='subject-li' value={0} onClick={(e) => {
+                           setDataState(e.target.value)
+                       }}>General Microbiology</li>
                        <li className='subject-li' value={1} onClick={(e) => setDataState(e.target.value)}>Immunology</li>
                        <li className='subject-li' value={2} onClick={(e) => setDataState(e.target.value)}>Hospital Infection Control</li>
                    </ul>

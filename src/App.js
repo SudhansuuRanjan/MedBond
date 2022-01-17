@@ -18,7 +18,7 @@ function App() {
           Med Bond
         </a>
 
-        <Link to="/physics">Physics</Link>
+        <Link to="/microbiology">Microbiology</Link>
         <Link to="/chemistry">Chemistry</Link>
         <Link to="/biology">Biology</Link>
         <Link to="/biologyy">404</Link>
