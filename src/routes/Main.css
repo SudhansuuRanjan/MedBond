@@ -12,16 +12,38 @@
 .table-of-contents{
     display: flex;
     flex-direction: column;
+    padding-left: 1rem;
+}
+.subject-li{
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.2rem 0;
 }
 .popup{
-    border: 1px solid black;
     max-width: fit-content;
 }
 .subject-topic{
-   padding: 2rem;
+   padding: 1.5rem;
+   margin-bottom: 2rem;
 }
 .subject-topic-cont{
     background-color: aquamarine;
     text-align: center;
-    ma
+    width: 100%;
+}
+.subject-body-container{
+    display: flex;
+    margin-top: 3rem;
+}
+.subject-lists{
+    width: 18rem;
+    border-right: 1px solid rgb(194, 194, 194);
+}
+.subject-body{
+    text-align: center;
+    width: 100%;
+}
+.table-head{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
 }

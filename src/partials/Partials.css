@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 1rem 0 0rem;
 }
 .navbar-img{
     width: 12rem;
@@ -44,6 +44,10 @@ input{
 }
 .display-block{
     display: none;
+}
+.medbond-logo{
+    height: 5rem;
+    margin-left: 1rem;
 }
 
 
