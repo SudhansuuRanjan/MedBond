@@ -4,7 +4,7 @@ import subjectImg from '../images/subjectImg.png'
 const Subjects = () => {
   return (
   <div className='subjects-container'>
-      <div className="features-head">
+      <div className="features-head" data-aos="fade-up">
               <h2 className="features-big-head">
                   What we provide
               </h2>
@@ -15,7 +15,7 @@ const Subjects = () => {
 
      <div className="subject-cards">
 
-         <div className="subject-card">
+         <div className="subject-card" data-aos="fade-up">
              <img src={subjectImg} alt=""  className='subject-img'/>
              <div className="bottom-subject">
                  <h3 className="subject-name">
@@ -34,7 +34,7 @@ const Subjects = () => {
          </div>
 
 
-         <div className="subject-card">
+         <div className="subject-card" data-aos="fade-up">
              <img src={subjectImg} alt=""  className='subject-img'/>
              <div className="bottom-subject">
                  <h3 className="subject-name">
@@ -52,7 +52,7 @@ const Subjects = () => {
              </div>
          </div>
 
-         <div className="subject-card">
+         <div className="subject-card" data-aos="fade-up">
              <img src={subjectImg} alt=""  className='subject-img'/>
              <div className="bottom-subject">
                  <h3 className="subject-name">

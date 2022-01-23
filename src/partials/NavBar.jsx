@@ -9,7 +9,7 @@ const NavBar = () => {
     const [navState , setNavState] = useState(false);
 
   return (
-      <div className='navbar'>
+      <div className='navbar' data-aos="fade-up">
           <div className="nav-up">
           <div className='navbar-img'>
                <img src={logo} alt=""  className='medbond-logo'/>

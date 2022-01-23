@@ -4,7 +4,7 @@ import doctor from '../images/doctor.png'
 const Testimonials = () => {
   return (
       <div className="testimonial-body">
-           <div className="features-head">
+           <div className="features-head" data-aos="fade-up">
               <h2 className="features-big-head">
                   What out users have to say
               </h2>
@@ -15,7 +15,7 @@ const Testimonials = () => {
 
           <div className="testimonial-cont">
 
-              <div className="testimonial">
+              <div className="testimonial" data-aos="fade-up">
                   <p className="test-msg">
                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia aut porro provident, quo perferendis temporibus doloremque nisi saepe itaque numquam ipsa minus qui similique vero odio voluptatum laudantium nobis minima. 
                   </p>
@@ -41,7 +41,7 @@ const Testimonials = () => {
                   </div>
               </div>
 
-              <div className="testimonial">
+              <div className="testimonial" data-aos="fade-up">
                   <p className="test-msg">
                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia aut porro provident, quo perferendis temporibus doloremque nisi saepe itaque numquam ipsa minus qui similique vero odio voluptatum laudantium nobis minima. 
                   </p>

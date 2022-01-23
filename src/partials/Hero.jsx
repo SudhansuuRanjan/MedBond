@@ -1,11 +1,11 @@
-import React from 'react';
+import {React} from 'react';
 import './Partials.css'
 import heroimg from '../images/heroimg.png'
 
 const Hero = () => {
   return (
       <div className='hero-container'>
-       <div className="hero-left">
+       <div className="hero-left" data-aos="fade-up">
            <h1 className="hero-big-text">
                <span className="green">Kickstart Your Exam Preparation with the </span>
                 <span className="light-green"> Dream Team</span>
@@ -18,7 +18,7 @@ const Hero = () => {
                <button className='hero-btn-right hero-btn'>View syllabus</button>
            </div>
        </div>
-       <div className="hero-right">
+       <div className="hero-right" data-aos="fade-up">
            <img src={heroimg} alt="hero-img" className='hero-img'/>
        </div>
       </div>

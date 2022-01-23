@@ -581,7 +581,7 @@ align-items: center;
 .subs-form{
     display: flex;
     align-items: center;
-    justify-content:start;
+    justify-content:flex-start;
     margin-top: 2rem;
 }
 @media screen and (max-width:1100px){

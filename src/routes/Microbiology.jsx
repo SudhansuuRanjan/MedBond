@@ -99,7 +99,7 @@ const Microbiology = () => {
 
  const [dataState , setDataState] = useState(0);
 
-  useEffect(() => listResources(), [dataState]);
+  useEffect(() => listResources(), );
 
  function listResources(){
     return(

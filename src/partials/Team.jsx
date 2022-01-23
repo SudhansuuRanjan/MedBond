@@ -4,7 +4,7 @@ import teamImg from "../images/team-img.png";
 const Team = () => {
   return (
     <div className="team-body">
-      <div className="features-head">
+      <div className="features-head" data-aos="fade-up">
         <h2 className="features-big-head">Our Team</h2>
         <p className="features-small-head">
           The hack is only a small part of the competition. The real spirit lies
@@ -13,7 +13,7 @@ const Team = () => {
       </div>
 
       <div className="team-grid">
-        <div className="team-card">
+        <div className="team-card" data-aos="fade-up">
           <div className="team-img">
             <img src={teamImg} alt="" className="team-pic" />
           </div>
@@ -35,7 +35,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="team-card">
+        <div className="team-card" data-aos="fade-up">
           <div className="team-img">
             <img src={teamImg} alt="" className="team-pic" />
           </div>
@@ -57,7 +57,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="team-card">
+        <div className="team-card" data-aos="fade-up">
           <div className="team-img">
             <img src={teamImg} alt="" className="team-pic" />
           </div>
