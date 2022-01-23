@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: Poppins;
 }
 .navbar{
     background-color: white;
@@ -11,6 +12,11 @@
     position: fixed;
     width: 100%;
     top: 0;
+}
+.medbond-logo2{
+    height: 1.5rem;
+    margin: 1rem;
+    margin-left: 2rem;
 }
 a{
     text-decoration: none;
@@ -299,22 +305,23 @@ align-items: center;
 }
 
 .subject-card{
-    max-width: 17rem;
+    max-width: 20rem;
     box-shadow: 1px 2px 10px 1px rgb(230, 230, 230);
-    border-radius: 15px;
+    border-radius: 1.5rem;
     overflow: hidden;
     margin-bottom: 2.5rem;
 }
 .subject-img{
-    height: 10rem;
-    width: 18rem;
+    height: fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
 }
 .subject-text{
     color: gray;
     margin-top: 0.2rem;
 }
 .bottom-subject{
-    padding: 1rem;
+    padding: 1.2rem;
 }
 .subject-btn{
   display: flex;
@@ -326,6 +333,7 @@ align-items: center;
   border-radius: 0.5rem;
   color: white;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .fa-arrow-right{
     padding: 0.3rem 0.6rem;
@@ -656,6 +664,7 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 3rem;
 }
 .footer-up-right{
  display: flex;
@@ -711,5 +720,13 @@ align-items: center;
     background-color: grey;
     margin: auto;
     margin-top: 2rem;
+}
+p{
+    font-size: 0.9rem;
+}
+.medbond-logo2{
+    height: 1.5rem;
+    margin: 1rem;
+    margin-left: 1rem;
 }
 }

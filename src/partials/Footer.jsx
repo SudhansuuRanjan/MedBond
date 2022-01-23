@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../images/medbond-logo.png'
+import logo from '../images/medbond2.png'
 
 const Footer = () => {
     return (
         <div className='footer' data-aos="fade-up">
             <div className="footer-up">
                 <div className="footer-up-left">
-                     <img src={logo} alt="" className='foot-logo'/>
+                     <img src={logo} alt="" className=' medbond-logo2'/>
                 </div>
                 <div className="footer-up-right">
                      <a href="/" className="termNc">

@@ -2,7 +2,7 @@ import {React , useState} from 'react'
 import './Partials.css'
 import {MdMenu} from 'react-icons/md'
 import {MdMenuOpen} from 'react-icons/md'
-import logo from '../images/medbond-logo.png'
+import logo from '../images/medbond2.png'
 
 const NavBar = () => {
 
@@ -22,7 +22,7 @@ const NavBar = () => {
       <div className={colorChange?"navbar drop-shadow":"navbar"} >
           <div className="nav-up">
           <div className='navbar-img'>
-               <img src={logo} alt=""  className='medbond-logo'/>
+               <img src={logo} alt=""  className='medbond-logo2'/>
           </div>
           <div className='nav-mid nav-up-comp'> 
             <ul>
