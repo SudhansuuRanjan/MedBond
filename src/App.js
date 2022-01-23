@@ -1,12 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import { Link } from 'react-router-dom';
+import NavBar from './partials/NavBar';
+import Hero from './partials/Hero';
+import Stats from './partials/Stats';
+import Features from './partials/Features';
 
 function App() {
   return (
     <div className="App">
+      <NavBar/>
+      <Hero/>
+      <Stats/>
+      <Features/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Started building <code>MedBond</code> App.
         </p>

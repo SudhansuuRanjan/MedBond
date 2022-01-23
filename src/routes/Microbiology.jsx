@@ -94,22 +94,15 @@ import { Link } from 'react-router-dom';
       },
     ]
 
-const Physics = () => {
+const Microbiology = () => {
 
  const [dataState , setDataState] = useState(0);
 
-  function Selected(){
-     for(var i = 0 ; i < 3 ; i++){
-         if(i == dataState){
-             document.querySelectorAll('.subject-li')[i].classList.add('selected')
-         }else{
-            document.querySelectorAll('.subject-li')[i].classList.remove('selected') 
-         }
-     }
-  }
 
  function listResources(){
-     Selected();
+     
+     
+
     return(
         <div>
         <div className="subject-topic-cont">
@@ -118,10 +111,10 @@ const Physics = () => {
         {
            data[dataState].links.map((link,id)=>{
               return(
-                  <>
-                <h3 key='id'>{link.li}</h3> 
-                <h3 key='id'>{link.ln}</h3> 
-                  </>
+                <div className="container" key={id}>
+                <h3>{link.li}</h3> 
+                <h3>{link.ln}</h3>
+                </div> 
               )
            }) 
         }
@@ -133,7 +126,7 @@ const Physics = () => {
     return (
         <>
             <NavBar2/>
-            <div className='path'>  <Link to="/"> Home </Link>  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg> <p>Microbiology</p></div>
+            <div className='path'>  <Link to="/"> Home </Link>  <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 256 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg> <p>Microbiology</p></div>
 
             <div className="subject-body-container">
              <div className='subject-lists'>
@@ -156,4 +149,4 @@ const Physics = () => {
     )
 }
 
-export default Physics
+export default Microbiology

@@ -50,6 +50,12 @@ input{
     margin-left: 1rem;
 }
 
+ul{
+    list-style-type:none;
+    display: flex;
+    column-gap: 5vw;
+}
+
 
 @media screen and ( max-width:850px){
     .nav-up-comp{
@@ -111,4 +117,119 @@ input{
     input{
         margin-top: 2rem;
     }
+}
+
+/* Hero */
+
+
+.get-started{
+    padding: 0.6rem 2rem;
+    border-radius: 0.5rem;
+    background-color:#066A38 ;
+    border: none;
+    color:white;
+}
+
+.hero-container{
+    padding-top: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-btn{
+    padding: 0.6rem 1.4rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.hero-small-text{
+    color:gray;
+    margin-top: 1rem;
+}
+.hero-big-text{
+    font-size: 2.8rem;
+}
+.hero-btns{
+    margin-top: 2rem;
+}
+.hero-left{
+    max-width: 27rem;
+}
+.hero-btn-left{
+    background-color: #066A38;
+    margin-right: 1rem;
+}
+.hero-btn-right{
+    background-color: #291D4F;
+}
+.hero-img{
+    max-height: 37rem;
+    margin-top: 6rem;
+}
+.home-nav{
+    color: #666B7E;
+}
+
+/* Stats */
+
+.stats{
+display: flex;
+background-color: #005142;
+justify-content: space-evenly;
+align-items: center;
+}
+.stats-element{
+    text-align: center;
+    padding: 3rem 0 3.5em 0;
+}
+.stats-big{
+    color:#01D77D;
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+.stats-small{
+    color:#C0FFE4;
+}
+
+/* Features */
+
+.features-cont{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features-head{
+    text-align: center;
+    max-width: 24rem;
+}
+.features-small-head{
+    color:#666B7E;
+}
+.feature-card-cont{
+    display: flex;
+    margin-top: 5rem;
+}
+.feature-card{
+    max-width: 17rem;
+    background-color: rgb(235, 235, 235);
+    padding: 1.5rem;
+}
+.feature-img{
+    margin-top: 2rem;
+}
+.feature-head{
+    margin-top: 1rem;
+}
+.feature-text{
+ margin-top: 0.5rem;
+ margin-bottom: 1rem;
+}
+.feature-hover{
+    background-color: white;
+    box-shadow: 1px 2px 10px 1px rgb(204, 204, 204);
 }
