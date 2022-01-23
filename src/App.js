@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import { Link } from 'react-router-dom';
 import NavBar from './partials/NavBar';
 import Hero from './partials/Hero';
 import Stats from './partials/Stats';
 import Features from './partials/Features';
+import Subjects from './partials/Subjects';
+import Videos from './partials/Videos';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Hero/>
       <Stats/>
       <Features/>
+      <Subjects/>
+      <Videos/>
       <header className="App-header">
         <p>
           Started building <code>MedBond</code> App.
