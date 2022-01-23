@@ -34,7 +34,7 @@ const Features = () => {
                         The hack is only a small part of the competition. The real spirit lies in building your network.
                     </p>
               </div>
-              <div className="feature-card" data-aos="fade-up">
+              <div className="feature-card" data-aos="fade-up"   id='resources'>
                    <img src={feature} alt=""
                     className='feature-img'/>
                     <h3 className="feature-head">

@@ -4,7 +4,7 @@ import heroimg from '../images/heroimg.png'
 
 const Hero = () => {
   return (
-      <div className='hero-container'>
+      <div className='hero-container' id="home">
        <div className="hero-left" data-aos="fade-up">
            <h1 className="hero-big-text">
                <span className="green">Kickstart Your Exam Preparation with the </span>

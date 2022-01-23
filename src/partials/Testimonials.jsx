@@ -53,7 +53,7 @@ const Testimonials = () => {
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star-half"></i>
                   </div>
-                  <div className="profile">
+                  <div className="profile" id='team'>
                       <img src={doctor} alt="" className='profile-img' />
                       <div className="dr-info">
                           <h4 className="dr-name">

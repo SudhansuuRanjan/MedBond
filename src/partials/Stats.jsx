@@ -11,7 +11,7 @@ const Stats = () => {
              <h1 className="stats-big">100+</h1>
              <p className="stats-small">video lectures</p>
          </div>
-         <div className="stats-element" data-aos="fade-up">
+         <div className="stats-element" data-aos="fade-up"  id='about'>
              <h1 className="stats-big">30+</h1>
              <p className="stats-small">notes sources</p>
          </div>

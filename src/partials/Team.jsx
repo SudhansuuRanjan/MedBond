@@ -65,7 +65,7 @@ const Team = () => {
             <h3 className="person-name">Sudhanshu Ranjan</h3>
             <p className="person-designation">Front End Developer</p>
 
-            <div className="team-socials">
+            <div className="team-socials" id="contact">
               <a href="/" className="social-link">
                 <i class="fab fa-linkedin"></i>
               </a>
