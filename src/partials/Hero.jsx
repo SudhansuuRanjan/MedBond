@@ -7,7 +7,8 @@ const Hero = () => {
       <div className='hero-container'>
        <div className="hero-left">
            <h1 className="hero-big-text">
-               Kickstart Your Exam Preparation with the Dream Team
+               <span className="green">Kickstart Your Exam Preparation with the </span>
+                <span className="light-green"> Dream Team</span>
            </h1>
            <p className="hero-small-text">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ex nisi reiciendis facilis sit itaque recusandae quaerat adipisci inventore magnam.

@@ -382,7 +382,7 @@ align-items: center;
 .testimonial-cont{
     margin-top: 4rem;
     display: flex;
-    gap:4rem;
+    gap:6rem;
 }
 
 .testimonial-body{
@@ -495,4 +495,129 @@ align-items: center;
     justify-content: space-evenly;
     width: 100%;
 } 
+}
+
+
+/* Contact */
+
+
+.contact-body{
+    padding-top: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-up{
+  margin-top: 4rem;
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+}
+.contact-box{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+
+}
+.contact-ico{
+    font-size: xxx-large;
+    color: rgb(0, 183, 255);
+    margin-bottom: 0.3rem;
+}
+.mail{
+    font-size: xxx-large;
+    color:orange;
+    margin-bottom: 0.3rem;
+}
+.ico{
+  background-color: #E8FFF5; 
+  width: 20rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.ico-text{
+    color: #00954A;
+}
+.ico-contact{
+    color:gray;
+}
+.contact-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter-body{
+    background-color: #E8FFF5;
+    padding: 3rem;
+    border-radius: 1rem; 
+    width:55vw;
+    margin-top: 5rem;
+}
+.green{
+    color:#005142;
+}
+.light-green{
+    color:#01D77D;
+}
+.newsletter-text{
+    color:#017D67;
+    margin-top: 0.5rem;
+}
+.mail-inp{
+    border-radius: 0.5rem;
+    border: 2px solid rgb(196, 196, 196);
+    margin-right:1rem ;
+}
+.subscribe{
+    height: 2.2rem;
+    border-radius: 0.5rem;
+    background-color: #005142;
+    border: none;
+    padding: 0.5rem 1rem;
+    color:white;
+}
+.subs-form{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin-top: 2rem;
+}
+@media screen and (max-width:1100px){
+   .newsletter-body{
+    background-color: #E8FFF5;
+    padding: 3rem;
+    border-radius: 1rem; 
+    width:75vw;
+    margin-top: 5rem;
+}
+}
+@media screen and (max-width:900px){
+   .newsletter-body{
+    background-color: #E8FFF5;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem; 
+    width:90vw;
+    margin-top: 5rem;
+}
+.mail-inp{
+    border-radius: 0.5rem;
+    border: 2px solid rgb(196, 196, 196);
+    margin-right:1rem ;
+    width: 70vw;
+}
+.subs-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 0rem;
+}
+.subscribe{
+    margin-top: 1rem;
+}
+
 }
