@@ -1,6 +1,6 @@
 import React from 'react';
 import './Partials.css'
-import heroimg from '../images/heroimg.svg'
+import heroimg from '../images/heroimg.png'
 
 const Hero = () => {
   return (
