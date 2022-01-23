@@ -6,6 +6,7 @@ import Stats from './partials/Stats';
 import Features from './partials/Features';
 import Subjects from './partials/Subjects';
 import Videos from './partials/Videos';
+import Testimonials from './partials/Testimonials';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features/>
       <Subjects/>
       <Videos/>
+      <Testimonials/>
       <header className="App-header">
         <p>
           Started building <code>MedBond</code> App.

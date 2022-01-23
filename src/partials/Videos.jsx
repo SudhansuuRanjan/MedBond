@@ -5,7 +5,7 @@ const Videos = () => {
       <div className="videos-cont">
          <div className="features-head">
               <h2 className="features-big-head">
-                  What we provide
+                  Our Latest Videos
               </h2>
               <p className="features-small-head">
                   The hack is only a small part of the competition. The real spirit lies in building your network
