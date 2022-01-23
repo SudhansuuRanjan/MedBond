@@ -9,6 +9,7 @@ import Videos from './partials/Videos';
 import Testimonials from './partials/Testimonials';
 import Team from './partials/Team';
 import Contact from './partials/Contact';
+import Footer from './partials/Footer';
 
 function App() {
   return (
@@ -22,17 +23,8 @@ function App() {
       <Testimonials/>
       <Team/>
       <Contact/>
+      <Footer/>
       <header className="App-header">
-        <p>
-          Started building <code>MedBond</code> App.
-        </p>
-        <a
-          className="App-link"
-          href="/"
-          rel="noopener noreferrer"
-        >
-          Med Bond
-        </a>
 
         <Link to="/microbiology">Microbiology</Link>
         <Link to="/chemistry">Chemistry</Link>

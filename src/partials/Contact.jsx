@@ -5,7 +5,7 @@ const Contact = () => {
       <div className="contact-body">
 
       <div className="features-head">
-        <h2 className="features-big-head">Our Team</h2>
+        <h2 className="features-big-head">Contact Us</h2>
         <p className="features-small-head">
           The hack is only a small part of the competition. The real spirit lies
           in building your network

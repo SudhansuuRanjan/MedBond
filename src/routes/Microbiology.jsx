@@ -2,6 +2,7 @@ import {React , useState, useEffect } from 'react'
 import NavBar2 from '../partials/NavBar2'
 import './Main.css'
 import { Link } from 'react-router-dom';
+import Footer from '../partials/Footer'
 
 
    const data = [
@@ -143,6 +144,7 @@ const Microbiology = () => {
                 {listResources()} 
             </div>
             </div>
+            <Footer/>
         </>
     )
 }
