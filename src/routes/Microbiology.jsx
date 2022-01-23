@@ -1,4 +1,4 @@
-import {React , useState} from 'react'
+import {React , useState, useEffect } from 'react'
 import NavBar2 from '../partials/NavBar2'
 import './Main.css'
 import { Link } from 'react-router-dom';
@@ -98,16 +98,11 @@ const Microbiology = () => {
 
  const [dataState , setDataState] = useState(0);
 
+  useEffect(() => listResources(), [dataState]);
 
  function listResources(){
-     
-     
-
     return(
         <div>
-        <div className="subject-topic-cont">
-            <h1 className='subject-topic'>{data[dataState].subject}</h1>
-        </div>
         {
            data[dataState].links.map((link,id)=>{
               return(
@@ -115,7 +110,7 @@ const Microbiology = () => {
                 <h3>{link.li}</h3> 
                 <h3>{link.ln}</h3>
                 </div> 
-              )
+              );
            }) 
         }
        </div>
@@ -142,6 +137,9 @@ const Microbiology = () => {
                </div> 
             </div>
             <div className="subject-body">
+            <div className="subject-topic-cont">
+            <h1 className='subject-topic'>{data[dataState].subject}</h1>
+            </div>
                 {listResources()} 
             </div>
             </div>
