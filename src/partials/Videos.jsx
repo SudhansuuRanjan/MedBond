@@ -15,15 +15,15 @@ const Videos = () => {
           <div className="video-grid">
 
               <div className="video-container" data-aos="fade-up">
-                  <iframe width="350" height="200" className='video-frame frame-left' src="https://www.youtube.com/embed/IPvYjXCsTg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="350" height="200" className='video-frame frame-left' src="https://www.youtube.com/embed/-H5Ovit1NzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
               <div className="video-container" data-aos="fade-up">
-                  <iframe width="350" height="200" className='video-frame' src="https://www.youtube.com/embed/IPvYjXCsTg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="350" height="200" className='video-frame' src="https://www.youtube.com/embed/SoPxHmwGoYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
               <div className="video-container" data-aos="fade-up">
-                  <iframe width="350" height="200" className='video-frame frame-right' src="https://www.youtube.com/embed/IPvYjXCsTg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="350" height="200" className='video-frame frame-right' src="https://www.youtube.com/embed/mjznL91Nxxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
           </div>

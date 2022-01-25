@@ -31,7 +31,6 @@ const Footer = () => {
                 <i class="fab fa-twitter socialm"></i>
                 <i class="fab fa-linkedin socialm"></i>
                 <i class="fab fa-instagram socialm"></i>
-                <i class="fab fa-discord socialm"></i>
                 <i class="fab fa-youtube socialm"></i>
               </div>
             </div>

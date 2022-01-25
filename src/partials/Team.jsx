@@ -18,8 +18,8 @@ const Team = () => {
             <img src={teamImg} alt="" className="team-pic" />
           </div>
           <div className="team-bottom">
-            <h3 className="person-name">Sudhanshu Ranjan</h3>
-            <p className="person-designation">Front End Developer</p>
+            <h3 className="person-name">Deepak Ranjan</h3>
+            <p className="person-designation">Technical Support</p>
 
             <div className="team-socials">
               <a href="/" className="social-link">
@@ -40,8 +40,8 @@ const Team = () => {
             <img src={teamImg} alt="" className="team-pic" />
           </div>
           <div className="team-bottom">
-            <h3 className="person-name">Sudhanshu Ranjan</h3>
-            <p className="person-designation">Front End Developer</p>
+            <h3 className="person-name">Ankit Kumar</h3>
+            <p className="person-designation">Teacher</p>
 
             <div className="team-socials">
               <a href="/" className="social-link">

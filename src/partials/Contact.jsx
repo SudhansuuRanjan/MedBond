@@ -7,8 +7,7 @@ const Contact = () => {
       <div className="features-head" data-aos="fade-up">
         <h2 className="features-big-head">Contact Us</h2>
         <p className="features-small-head">
-          The hack is only a small part of the competition. The real spirit lies
-          in building your network
+          Get in touch with us. We are here to render our support.
         </p>
       </div>
       
@@ -34,7 +33,7 @@ const Contact = () => {
                        <span className="light-green">the loop.</span>
                     </h1>
                     <p className="newsletter-text">
-                        No spamming. Only news that are worth your time and help you start traveling.
+                        Subscribe to our newsletter.
                     </p>
                     <div className="form">
                         <form action="/" method="post" className='subs-form'>

@@ -6,7 +6,7 @@ const Subjects = () => {
   <div className='subjects-container'>
       <div className="features-head" data-aos="fade-up">
               <h2 className="features-big-head">
-                  What we provide
+                  Resources
               </h2>
               <p className="features-small-head">
                   The hack is only a small part of the competition. The real spirit lies in building your network
@@ -19,7 +19,7 @@ const Subjects = () => {
              <img src={subjectImg} alt=""  className='subject-img'/>
              <div className="bottom-subject">
                  <h3 className="subject-name">
-                 Microbiology
+                 Microbiology Video Lecture
              </h3>
              <p className="subject-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione minima ea ducimus aliquid cupiditate.</p>
              <button className="subject-btn">
@@ -38,7 +38,7 @@ const Subjects = () => {
              <img src={subjectImg} alt=""  className='subject-img'/>
              <div className="bottom-subject">
                  <h3 className="subject-name">
-                 Microbiology
+                 Microbiology Notes
              </h3>
              <p className="subject-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione minima ea ducimus aliquid cupiditate.</p>
              <button className="subject-btn">
@@ -56,7 +56,7 @@ const Subjects = () => {
              <img src={subjectImg} alt=""  className='subject-img'/>
              <div className="bottom-subject">
                  <h3 className="subject-name">
-                 Microbiology
+                 Microbiology Question Bank
              </h3>
              <p className="subject-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione minima ea ducimus aliquid cupiditate.</p>
              <button className="subject-btn">

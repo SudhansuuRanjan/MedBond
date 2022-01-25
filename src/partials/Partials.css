@@ -586,7 +586,7 @@ align-items: center;
 .mail-inp{
     border-radius: 0.5rem;
     border: 2px solid rgb(196, 196, 196);
-    margin-right:1rem ;
+    margin-right:1rem;
 }
 .subscribe{
     height: 2.2rem;
@@ -607,9 +607,13 @@ align-items: center;
     background-color: #E8FFF5;
     padding: 3rem;
     border-radius: 1rem; 
-    width:75vw;
+    width:60vw;
     margin-top: 5rem;
 }
+.newsletter-text{
+    margin-bottom: 1rem;
+}
+
 }
 @media screen and (max-width:900px){
    .newsletter-body{
@@ -650,6 +654,17 @@ align-items: center;
 
 }
 
+@media screen and (max-width:800px){
+   .newsletter-body{
+    background-color: #E8FFF5;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem; 
+    width:75vw;
+    margin-top: 5rem;
+}
+}
 /* Footer */
 
 .footer{

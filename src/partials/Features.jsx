@@ -18,30 +18,30 @@ const Features = () => {
                    <img src={feature} alt=""
                     className='feature-img'/>
                     <h3 className="feature-head">
-                        Kickstart Your Exam
+                        Video Lectures
                     </h3>
                     <p className="feature-text">
-                        The hack is only a small part of the competition. The real spirit lies in building your network.
+                        Highly informative and engaging lectures to encourage concept based learning.
                     </p>
               </div>
               <div className="feature-card feature-hover" data-aos="fade-up">
                    <img src={feature} alt=""
                     className='feature-img'/>
                     <h3 className="feature-head">
-                        Kickstart Your Exam
+                        Notes
                     </h3>
                     <p className="feature-text">
-                        The hack is only a small part of the competition. The real spirit lies in building your network.
+                        Well structures, handwritten notes effective for revision.
                     </p>
               </div>
               <div className="feature-card" data-aos="fade-up"   id='resources'>
                    <img src={feature} alt=""
                     className='feature-img'/>
                     <h3 className="feature-head">
-                        Kickstart Your Exam
+                        Question Bank
                     </h3>
                     <p className="feature-text">
-                        The hack is only a small part of the competition. The real spirit lies in building your network.
+                        High Yeild Question Bank for Self assessment.
                     </p>
               </div>
 

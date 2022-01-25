@@ -6,10 +6,10 @@ const Testimonials = () => {
       <div className="testimonial-body">
            <div className="features-head" data-aos="fade-up">
               <h2 className="features-big-head">
-                  What out users have to say
+                  Testimonials
               </h2>
               <p className="features-small-head">
-                  The hack is only a small part of the competition. The real spirit lies in building your network
+                   What out users have to say
               </p>
           </div>
 
