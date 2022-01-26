@@ -4,28 +4,34 @@
     box-sizing: border-box;
 }
 .path{
-    margin-top: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 .table-of-contents{
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
+    padding:0 0.5rem 0 1rem;
 }
 .subject-li{
     cursor: pointer;
     font-weight: 600;
-    padding: 0.2rem 0;
+    font-size:0.9rem;
+    padding: 0.6rem 0;
+    color: rgb(56, 56, 56);
+    width: 12rem;
 }
+
 .popup{
-    max-width: fit-content ;
-    max-width:-moz-fit-content;
+    position: fixed;
+     overflow: scroll;
+    height: 90vh;
 }
 .subject-topic{
    padding: 1.5rem;
-   margin-bottom: 2rem;
+   margin-bottom: 0rem;
 }
 .subject-topic-cont{
     background-color: aquamarine;
@@ -34,14 +40,14 @@
 }
 .subject-body-container{
     display: flex;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 .subject-lists{
     width: 18rem;
     border-right: 1px solid rgb(194, 194, 194);
 }
 .subject-body{
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 .table-head{
@@ -55,5 +61,5 @@
 }
 
 .chemistry{
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(245, 245, 245);
 }
