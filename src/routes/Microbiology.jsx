@@ -16,6 +16,7 @@ import NavBar from '../partials/NavBar';
 const Microbiology = () => {
 
  const [dataState , setDataState] = useState(0);
+ const [popup , setPopup] = useState(0);
 
   useEffect(() => listResources(), );
 
@@ -25,7 +26,10 @@ const Microbiology = () => {
               {
                   data.map((topic , id)=>{
                       return(
-                    <li className='subject-li' key={id} value={id} onClick={(e) => setDataState(e.target.value)}>{topic.subject}</li>  
+                    <li className='subject-li' key={id} value={id} onClick={(e) => {
+                        setDataState(e.target.value)
+                        setPopup(0)
+                    }}>{topic.subject}</li>  
                       )
                   })
               }
@@ -48,10 +52,10 @@ const Microbiology = () => {
                         key={id}
                     >
                         <h3 className="vertical-timeline-element-title">{link.li}</h3>
-                        <p>
+                        <p className='resource-type'>
                         Comprehensive handwritten notes.
                         </p>
-                        <a href={link.ln}><button>Click Here</button></a>
+                        <a href={link.ln}><button className='resource-btn'>Click Here</button></a>
                     </VerticalTimelineElement>
               );
            }) 
@@ -63,10 +67,11 @@ const Microbiology = () => {
 
     return (
         <>
-            <NavBar/>
+            <NavBar2/>
             <div className="subject-body-container">
              <div className='subject-lists'>
-               <div className='popup'>
+                 <div className='popup-cover'><button className='popup-btn' onClick={() => setPopup(1)}>Choose Subtopic</button></div>
+               <div className={ popup ? 'popup' : 'popup display-none'}>
                  <div className='path'>  <Link to="/"> Home </Link>  <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 256 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg> <p>Microbiology</p></div>
 
                 <h3 className='table-head'>Table of Contents</h3>

@@ -13,6 +13,11 @@
     width: 100%;
     top: 0;
 }
+.medbond-logo{
+    height: 1.5rem;
+    margin: 1rem;
+    margin-left: 2rem;  
+}
 .medbond-logo2{
     height: 1.5rem;
     margin: 1rem;
@@ -715,6 +720,11 @@ align-items: center;
 .socialm:hover{
    background-color: #13ae63; 
 }
+.medbond-logo{
+    height: 1.5rem;
+    margin: 1rem;
+    margin-left: 2rem;  
+}
 @media screen and (max-width:900px) {
     .footer-up , .footer-up-right{
        flex-direction: column;
@@ -742,5 +752,10 @@ p{
 .medbond-logo2{
     height: 1.2rem;
     margin: 1rem;
+}
+.medbond-logo{
+    height: 1.2rem;
+    margin: 1rem;
+    margin-left: 1rem;  
 }
 }

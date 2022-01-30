@@ -1,5 +1,6 @@
 import React from 'react';
 import subjectImg from '../images/subjectImg.png'
+import { Link } from 'react-router-dom';
 
 const Subjects = () => {
   return (
@@ -41,7 +42,8 @@ const Subjects = () => {
                  Microbiology Notes
              </h3>
              <p className="subject-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione minima ea ducimus aliquid cupiditate.</p>
-             <button className="subject-btn">
+             <Link to="/microbiology">
+                 <button className="subject-btn">
                 <p className="btn-text">
                  View
                 </p>
@@ -49,6 +51,8 @@ const Subjects = () => {
                     <i class="fas fa-arrow-right"></i>
                 </div>
              </button>
+             </Link>
+             
              </div>
          </div>
 

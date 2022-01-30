@@ -2,7 +2,7 @@ import {React , useState} from 'react'
 import './Partials.css'
 import {MdMenu} from 'react-icons/md'
 import {MdMenuOpen} from 'react-icons/md'
-import logo from '../images/medbond-logo.png'
+import logo from '../images/medbond2.png'
 
 const NavBar2 = () => {
     
@@ -16,9 +16,9 @@ const NavBar2 = () => {
           </div>
           <div className='nav-mid nav-up-comp'> 
             <ul>
-                <li className='nav-sub'>Microbiology</li>
-                <li className='nav-sub'>Pathology</li>
-                <li className='nav-sub'>Pharmacology</li>
+                <li className='nav-sub'>Notes</li>
+                <li className='nav-sub'>Lectures</li>
+                <li className='nav-sub'>Questions</li>
             </ul>
           </div>
           <div className='nav-search nav-up-comp'>
@@ -31,9 +31,9 @@ const NavBar2 = () => {
           <div className= { navState ? "nav-bottom": "display-block"}>
              <div className='nav-mid'> 
                 <ul>
-                    <li className='nav-sub'>Microbiology</li>
-                    <li className='nav-sub'>Pathology</li>
-                    <li className='nav-sub'>Pharmacology</li>
+                    <li className='nav-sub'>Notes</li>
+                    <li className='nav-sub'>Lectures</li>
+                    <li className='nav-sub'>Questions</li>
                 </ul>
              </div>
             <div className='nav-search'>
