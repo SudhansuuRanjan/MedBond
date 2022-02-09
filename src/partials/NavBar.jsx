@@ -50,7 +50,7 @@ const NavBar = () => {
                 </ul>
              </div>
             <div className='nav-search'>
-              <a href="/home"><button className='get-started'>Get started</button> </a> 
+              <a href="/homepage"><button className='get-started'>Get started</button> </a> 
             </div> 
           </div>
             
