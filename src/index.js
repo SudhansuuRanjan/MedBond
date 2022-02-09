@@ -14,7 +14,7 @@ ReactDOM.render(
   <BrowserRouter>
      <Routes>
        <Route path="/" element={<App/>}/>
-       <Route path="/home" element={<HomePage/>}/>
+       <Route path="/homepage" element={<HomePage/>}/>
        <Route path="/microbiology" element={<Microbiology/>}/>
        <Route path="/chemistry" element={<Chemistry/>}/>
        <Route path="/biology" element={<Biology/>}/>

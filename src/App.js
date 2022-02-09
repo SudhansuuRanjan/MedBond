@@ -31,8 +31,8 @@ function App() {
       <Team/>
       <Contact/>
       <Footer/>
-      <header className="App-header">
-        
+      
+      <header className="App-header">  
         <Link to="/homepage">Home</Link>
         <Link to="/microbiology">Microbiology</Link>
         <Link to="/chemistry">Chemistry</Link>
