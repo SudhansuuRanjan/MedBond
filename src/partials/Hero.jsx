@@ -14,7 +14,7 @@ const Hero = () => {
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ex nisi reiciendis facilis sit itaque recusandae quaerat adipisci inventore magnam.
            </p>
            <div className="hero-btns">
-               <a href="/homepage"><button className='hero-btn-left hero-btn'>Get Started</button></a>
+               <Link to="/homepage"><button className='hero-btn-left hero-btn'>Get Started</button></Link>
                <a href="https://www.youtube.com/medbond" target="_blank"><button className='hero-btn-right hero-btn'>View Youtube channel</button></a>
            </div>
        </div>

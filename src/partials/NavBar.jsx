@@ -3,6 +3,7 @@ import './Partials.css'
 import {MdMenu} from 'react-icons/md'
 import {MdMenuOpen} from 'react-icons/md'
 import logo from '../images/medbond2.png'
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -35,7 +36,7 @@ const NavBar = () => {
             </ul>
           </div>
           <div className='nav-search nav-up-comp'>
-           <a href="/home"> <button className='get-started'>Get started</button></a>
+            <Link to="/homepage"><button className='get-started'>Get started</button></Link>
           </div>
           <div className='hamburger'>
              {navState ? <MdMenuOpen size={34} onClick={()=> setNavState(false)}/> : <MdMenu size={34}  onClick={()=> setNavState(true)}/>} 
@@ -50,7 +51,7 @@ const NavBar = () => {
                 </ul>
              </div>
             <div className='nav-search'>
-              <a href="/homepage"><button className='get-started'>Get started</button> </a> 
+              <Link to="/homepage"><button className='get-started'>Get started</button></Link>
             </div> 
           </div>
             
