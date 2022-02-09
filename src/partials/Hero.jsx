@@ -1,6 +1,7 @@
 import {React} from 'react';
 import './Partials.css'
 import heroimg from '../images/heroimg.png'
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
