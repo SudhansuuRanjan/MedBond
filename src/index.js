@@ -7,12 +7,14 @@ import Microbiology from './routes/Microbiology'
 import Biology from './routes/Biology'
 import Chemistry from './routes/Chemistry'
 import NoPage from './routes/NoPage'
+import HomePage from './routes/HomePage'
 
 const rootElement =  document.getElementById('root');
 ReactDOM.render(
   <BrowserRouter>
      <Routes>
        <Route path="/" element={<App/>}/>
+       <Route path="/home" element={<HomePage/>}/>
        <Route path="/microbiology" element={<Microbiology/>}/>
        <Route path="/chemistry" element={<Chemistry/>}/>
        <Route path="/biology" element={<Biology/>}/>

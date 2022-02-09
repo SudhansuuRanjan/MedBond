@@ -6,10 +6,10 @@ const Features = () => {
       <div className="features-cont">
           <div className="features-head" data-aos="fade-up">
               <h2 className="features-big-head">
-                  What we provide
+                  Resources
               </h2>
               <p className="features-small-head">
-                  The hack is only a small part of the competition. The real spirit lies in building your network
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iste corporis recusandae aliquid, sequi quisquam.
               </p>
           </div>
           <div className="feature-card-cont">

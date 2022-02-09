@@ -7,9 +7,19 @@ import logo from '../images/medbond2.png'
 const NavBar2 = () => {
     
     const [navState , setNavState] = useState(false);
+    const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 50){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
 
     return (
-        <div className='navbar'>
+        <div className={colorChange?"navbar drop-shadow":"navbar"} >
           <div className="nav-up">
           <div className='navbar-img'>
                <img src={logo} alt=""  className='medbond-logo'/>

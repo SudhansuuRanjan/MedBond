@@ -32,11 +32,12 @@ function App() {
       <Contact/>
       <Footer/>
       <header className="App-header">
-     
+        
+        <Link to="/homepage">Home</Link>
         <Link to="/microbiology">Microbiology</Link>
         <Link to="/chemistry">Chemistry</Link>
         <Link to="/biology">Biology</Link>
-        <Link to="/biologyy">404</Link> 
+        <Link to="*">404</Link> 
       </header>
     </div>
   );

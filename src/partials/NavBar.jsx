@@ -35,7 +35,7 @@ const NavBar = () => {
             </ul>
           </div>
           <div className='nav-search nav-up-comp'>
-            <button className='get-started'>Get started</button>
+           <a href="/home"> <button className='get-started'>Get started</button></a>
           </div>
           <div className='hamburger'>
              {navState ? <MdMenuOpen size={34} onClick={()=> setNavState(false)}/> : <MdMenu size={34}  onClick={()=> setNavState(true)}/>} 
@@ -50,7 +50,7 @@ const NavBar = () => {
                 </ul>
              </div>
             <div className='nav-search'>
-              <button className='get-started'>Get started</button>  
+              <a href="/home"><button className='get-started'>Get started</button> </a> 
             </div> 
           </div>
             
